@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # BambangShop Receiver App
 Tutorial and Example for Advanced Programming 2024 - Faculty of Computer Science, Universitas Indonesia
 
@@ -88,6 +87,3 @@ This is the place for you to write reflections:
 #### Reflection Subscriber-1
 
 #### Reflection Subscriber-2
-=======
-# bambangshop-receiver
->>>>>>> e7ba5c0646a53e0959f5e736f1be3792a7243d20
