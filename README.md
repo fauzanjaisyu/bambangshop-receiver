@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # BambangShop Receiver App
 Tutorial and Example for Advanced Programming 2024 - Faculty of Computer Science, Universitas Indonesia
 
@@ -87,7 +86,8 @@ This is the place for you to write reflections:
 
 #### Reflection Subscriber-1
 
+1. Penggunaan RwLock<> diperlukan karena kita ingin mengakses data yang sama secara bersamaan, namun kita ingin membatasi akses tersebut. RwLock<> memungkinkan kita untuk mengakses data secara bersamaan, namun hanya satu thread yang dapat mengakses data tersebut pada satu waktu. Mutex<> tidak digunakan karena Mutex<> hanya memungkinkan satu thread untuk mengakses data pada satu waktu, sehingga tidak cocok untuk kasus ini.
+
+2. Karena Rust secara default tidak mengizinkan kita untuk mengubah data statis (immutable), hal ini bertujuan untuk mencegah data race condition. Rust memastikan bahwa data statis tidak dapat diubah oleh thread lain, sehingga kita perlu menggunakan Mutex atau RwLock untuk mengubah data statis tersebut.
+
 #### Reflection Subscriber-2
-=======
-# bambangshop-receiver
->>>>>>> e7ba5c0646a53e0959f5e736f1be3792a7243d20
