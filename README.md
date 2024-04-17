@@ -91,3 +91,9 @@ This is the place for you to write reflections:
 2. Karena Rust secara default tidak mengizinkan kita untuk mengubah data statis (immutable), hal ini bertujuan untuk mencegah data race condition. Rust memastikan bahwa data statis tidak dapat diubah oleh thread lain, sehingga kita perlu menggunakan Mutex atau RwLock untuk mengubah data statis tersebut.
 
 #### Reflection Subscriber-2
+
+1. File lib.rs adalah sebuah file yang mendefinisikan beberapa struktur data, fungsi, dan konstanta yang digunakan dalam pengembangan aplikasi menggunakan framework Rocket dan klien HTTP Reqwest.
+
+2. Observer pattern memudahkan kita untuk menambahkan subscriber baru ke dalam sistem karena kita hanya perlu membuat instance baru dari subscriber tersebut dan mendaftarkannya ke dalam sistem. Dengan menggunakan Observer pattern, kita tidak perlu mengubah kode yang sudah ada, sehingga memudahkan kita untuk menambahkan subscriber baru tanpa mengganggu sistem yang sudah ada.
+
+3. Pada tutorial kali ini, saya tidak membuat test maupun menambahkan dokumentasi pada Postman collection. Namun, menurut saya, fitur tersebut sangat berguna untuk pekerjaan saya. Dengan membuat test, saya dapat memastikan bahwa kode yang saya tulis berjalan dengan baik dan sesuai dengan yang diinginkan.
